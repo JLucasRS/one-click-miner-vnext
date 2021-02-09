@@ -21,7 +21,8 @@ import locale_nl from "./i18n/nl.json";
 import locale_no from "./i18n/no.json";
 import locale_pa from "./i18n/pa.json";
 import locale_pl from "./i18n/pl.json";
-import locale_pt from "./i18n/pt.json";
+import locale_pt_br from "./i18n/pt_br.json";
+import locale_pt_pt from "./i18n/pt.json";
 import locale_ro from "./i18n/ro.json";
 import locale_ru from "./i18n/ru.json";
 import locale_sl from "./i18n/sl.json";
@@ -47,7 +48,8 @@ Wails.Init(() => {
                 no: locale_no,
                 pa: locale_pa,
                 pl: locale_pl,
-                pt: locale_pt,
+                'pt-BR': locale_pt_br,
+                'pt-PT': locale_pt_pt,
                 ro: locale_ro,
                 ru: locale_ru,
                 sl: locale_sl,

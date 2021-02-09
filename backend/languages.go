@@ -23,7 +23,8 @@ var availableLanguages = []string{
 	"no",
 	"pa",
 	"pl",
-	"pt",
+	"pt-BR",
+	"pt-PT",
 	"ro",
 	"ru",
 	"sl",
@@ -57,8 +58,12 @@ func (m *Backend) GetLocale() string {
 	if err != nil {
 		logging.Warnf("Could not parse user IETF: %s", err.Error())
 	}
-	tag, _, _ := languageMatcher.Match(userTag)
+	tag, _, exact := languageMatcher.Match(userTag)
 	logging.Infof("Matched tag is %s", tag.String())
+	if exact.String() == "Exact"{
+		logging.Infof("Returning locale %s", tag.String())
+		return tag.String()
+	}
 	base, _ := tag.Base()
 	logging.Infof("Returning locale %s", base.String())
 	return base.String()

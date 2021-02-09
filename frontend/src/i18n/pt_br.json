@@ -1,0 +1,89 @@
+{
+    "generic" : {
+        "retry" : "Tentar Novamente",
+        "back_to_wallet" : "De volta para a carteira",
+        "close" : "Fechar"
+    },
+    "welcome" : {
+        "alreadyrunning" : "O One-Click Miner já está em execução. Não podem haver duas instâncias deste programa.",
+        "click_button_to_start" : "Clique no botão abaixo para começar a minerar.",
+        "startmining" : "Começe a Minerar!",
+        "makeapassword" : "Crie uma senha. Não a perca!",
+        "password" : "Senha",
+        "confirmpassword" : "Confirme a Senha",
+        "password_cannot_be_empty" : "O campo senha não pode estar vazio",
+        "password_mismatch" : "As Senhas não correspondem",
+        "error_initializing" : "Algo de errado ocorreu ao iniciar a carteira"
+    },
+    "checks": {
+        "prerequisite": "Os pré-requisitos estão sendo instalados. Você poderá ver popups pedindo permissões (poderá ser apenas um ícone piscando na barra de tarefas)",
+        "checks_failed": "As verificações falharam",
+        "checking_mining_software": "Verificando o software de mineração...",
+        "rapidfail": "Verificando ocorrências de falhas rápidas",
+        "compatibility": "Verificando a compatibilidade com a GPU...",
+        "installing_miners": "Instalando o software de mineração..."
+    },
+    "mining": {
+        "spendable_balance": "Quantia disponível",
+        "still_maturing": "aguardando confirmações",
+        "pending_pool_payout": "pagamento pela pool pendente",
+        "waiting_for_miners": "Esperando a inicialização dos mineradores",
+        "expected_earnings_24h": "Ganhos Esperados (24h)",
+        "estimating": "estimando",
+        "stop_mining": "Parar de Minerar",
+        "active_pool": "Pool ativa",
+        "pool_fee": "taxa",
+        "copy_address": "Copie o endereço da sua carteira"
+    },
+    "sending" : {
+        "send_all_to" : "Enviar todas as moedas para",
+        "youre_sending_x_to" : "Você está enviando {receivedBalance} para",
+        "youre_sending_x_in_y_txs_to" : "Você está recebendo {receivedBalance} em {receivedTxCount} transações para",
+        "receiver_address" : "Endereço do destinatário",
+        "wallet_password" : "Senha da Carteira",
+        "send" : "Enviar",
+        "coins_sent" : "As suas moedas foram enviadas!",
+        "view_trans_plural" : "Ver transações",
+        "view_trans_singular" : "Ver transação",
+        "failed_to_send" : "Ocorreu um erro ao tentar enviar as suas moedas",
+        "password_required" : "A Senha da carteira é necessária",
+        "invalid_address" : "Endereço inválido",
+        "script_failure" : "Erro no Script",
+        "could_not_calculate_fee" : "Não foi possível calcular a taxa",
+        "insufficient_funds" : "O montante disponível é insuficiente",
+        "sign_failed":"Não foi possível assinar a transação. Verifique sua senha",
+        "send_failed" : "Não foi possível realizar a transação. Veja o debug.log para mais informações."
+    },
+    "settings": {
+        "enable_debug": "Ativar depuração",
+        "enable_debug_sub": "Incluir o output do console dos mineradores no debug.log. Isto pode aumentar bastante o tamanho dos logs",
+        "auto_start": "Iniciar automaticamente",
+        "auto_start_sub": "Iniciar o One-Click Miner quando inicia o computador",
+        "closed_source": "Utilizar mineradores de código fechado",
+        "closed_source_sub": "Tem melhor hashrate, mas são mineradoress que não são auditados e possuem taxas para o desenvolvedor",
+        "closed_source_warning": "Você selecionou a opção de utilizar mineradores de código fechado. O Vertcoin não apoia ou fornece suporte a estes mineradores. O seu conteúdo não pode ser auditado e por isso podem conter funções que podem danificar o seu computador.",
+        "testnet": "Modo Testnet",
+        "testnet_sub": "Habilita o modo testnet. Você não estará minerando moedas de verdade.",
+        "skipverthashverify": "Não verificar Verthash na inicialização",
+        "skipverthashverify_sub": "Irá pular a verificação de integridade do arquivo do Verthash na inicialização (não recomendado)",
+        "save_n_restart": "Salvar & Reiniciar",
+        "pool": "Pool de Mineração"
+    },
+    "tabbar" : {
+        "wallet" : "Carteira",
+        "send_coins" : "Enviar moedas",
+        "settings" : "Configurações"
+    },
+    "tracking": { 
+        "update_available" : "Atualização disponível",
+        "tracking_enabled" : "Você está compartilhando estatísticas de uso anonimamente",
+        "disable_tracking" : "Desativar",
+        "tracking_disabled" : "Você não está compartilhando estatísticas de uso",
+        "enable_tracking" : "Ative-as para melhorar a sua experiência",
+        "report_issue" : "Comunicar um problema"
+    },
+    "update" : {
+        "new_version_available" : "Uma nova versão está disponível",
+        "download" : "Download"
+    }
+}
